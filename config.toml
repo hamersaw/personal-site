@@ -10,10 +10,10 @@ copyright = "&copy; Daniel Rammer 2021"
   subtitle = "a collection of ramblings and general debauchery"
 
   paginate = 5
-  custom_css = ["/css/custom.css"]
+  #custom_css = ["/css/custom.css"]
 
-  instagram = "dan.rammer"
   github = "hamersaw"
+  instagram = "dan.rammer"
   strava = "61166744"
 
   # Disqus shortname
@@ -36,6 +36,11 @@ copyright = "&copy; Daniel Rammer 2021"
     weight = 2
 
 [[menu.main]]
+    name = "Publications"
+    url = "/publications"
+    weight = 3
+
+[[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 3
+    weight = 4
