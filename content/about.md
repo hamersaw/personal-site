@@ -3,6 +3,7 @@ title: "About"
 date: 2021-02-08T11:49:12-07:00
 draft: false
 
+disqus: ""
 hideDate: true
 ---
 

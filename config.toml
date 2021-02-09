@@ -10,14 +10,13 @@ copyright = "&copy; Daniel Rammer 2021"
   subtitle = "a collection of ramblings and general debauchery"
 
   paginate = 5
-  #custom_css = ["/css/custom.css"]
 
-  github = "hamersaw"
   instagram = "dan.rammer"
+  github = "hamersaw"
   strava = "61166744"
 
   # Disqus shortname
-  #disqus = ""
+  disqus = "blackpine-io"
 
   #author = "Your Name"
   #authorwebsite = "example.com"
