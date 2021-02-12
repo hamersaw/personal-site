@@ -7,9 +7,7 @@ disqus: ""
 hideDate: true
 ---
 
-PSA: I will soon be graduating and strongly vested in the job market. If my work interests you, [here is my resume](/resume.pdf). Please feel free to contact me. I would enjoy discussing future directions for my work and how they may fit your needs.
-
-That being said ...
+PSA: I will soon be graduating and strongly vested in the job market. If my work interests you please feel free to contact me. I would enjoy discussing future directions for my work and how they may fit your needs.
 
 <p align="center">
   <img width="90%" src="/profile-picture.jpg">
