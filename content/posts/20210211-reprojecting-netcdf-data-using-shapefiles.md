@@ -20,7 +20,7 @@ We are trying to store this data in a time-series format, where each observation
 We begin by creating a shapefile coordinate index. This is simply a mapping between the latitude and longitude netCDF dimensions and shape_id's. As previously stated, an iterative, pair-wise comparison is computationally expensive. Rather, for each netCDF coordinate we identify a number of shapes which "may be close" based on distances of polygon centroids. This is configurable, but we have found limiting this _close-set_ to 5 shapes produces adequate results without excessive overhead. With this operation we are effectively reducing the search space. A depiction of the algorithm is provided below using a _close-set_ size of 2 for the blue bounded query over the continental United States. Note that, while the bounding region covers 4 states, only 2 will be accessed because of the _close-set_ size. This variable is a trade-off between result accuracy and processing speed.
 
 <p align="center">
-  <img width="90%" src="/20210211/shapefile-index.png">
+  <img width="90%" src="/posts/20210211-reprojecting-netcdf-data-using-shapefiles/shapefile-index.png">
 </p>
 
 The result of this operation is a delimited file where each row is formatted as (longitude, latitude, shape_id). It has always bugged me that global coordinates are always presented as (latitude, longitude) but in reality that is presenting (y, x), where (x, y) is more logical. This is an issue I battled when supporting gdal 3.* (originally implemented in 2.*) in my [st-image](https://github.com/hamersaw/st-image) library. Anyways, the resulting _shapefile index_ file is formatted as shown below.
@@ -53,7 +53,7 @@ However, I quickly ran into issues with over provisioned RAM. Our test dataset w
 A solution is to iteratively process data windows based on dimensional slices. This paradigm should not be foreign to those familiar with data cubes and similar approaches. This idea is to partition the data based on a dimension, in our case time, and process only an individual small chunk. A visual of partitioning our 3 dimension dataset by time is provided below.
 
 <p align="center">
-  <img width="50%" src="/20210211/time-partitioning.png">
+  <img width="50%" src="/posts/20210211-reprojecting-netcdf-data-using-shapefiles/time-partitioning.png">
 </p>
 
 We found that this approach was able to cope with increasing dataset sizes with negligible overhead. When processing time in increments of 50 days the process memory utilization is under 2.5GB. Additionally, we are able to reproject the 8 daily-reported variable, 5 year datasets into United States counties in under 5 minutes each. In our use-case this is acceptable given each results in over 5.5 million observations. I've included a head dump of the resulting data below.
