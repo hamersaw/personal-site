@@ -68,4 +68,4 @@ We found that this approach was able to cope with increasing dataset sizes with 
     G0100090,1104537600,0.004,0.005,27.876,42.626,25.293,29.998,284.354,286.204,271.667,273.768,-5.510,-4.029,3.352,4.676,28.000,38.000
     ...
 
-The source code for this work is publicly available under the MIT license in my [ncproj github repository](https://github.com/hamersaw/ncproj).
+The source code for this work is publicly available under the MIT license in my [ncproj-rs github repository](https://github.com/hamersaw/ncproj-rs).
