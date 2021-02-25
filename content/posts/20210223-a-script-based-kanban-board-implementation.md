@@ -10,17 +10,22 @@ TL;DR - The due script in my [script repository](https://github.com/hamersaw/scr
 TODO list management is an integral component in any workflow. There is absolutely no shortage of tools in this space, ranging from integrated online suite extensions to local text files. My UI, and broadly defined work environment, thrives on minimalist solutions. I tend to favor simplicity over robust functionality. To succinctly explain my methodology "the more things going on, the more than can (and typically does) break". This has driven many of my development choices including transitioning to Debian stable on both my laptop and home server machines rather than running a sexier alternative.
 
 In my particular use-case I am looking for a specific set of functionality:
+
 - Ability to logically partition tasks between home, school, work, etc
+
 - Prioritization / scheduling of tasks
+
 - Flexibility to attach metadata to each individual task
 
 There are many proven solutions, probably backed by profound psychologic studies, that increase productivity x-fold by rewarding task completion and not-overwhelming users. For the last few years I relied on a simple text file, creating lists with assorted metadata. However, my increased task-load deems this solution untenable, difficult to parse, and overwhelming when confronted with the ever-growing collection of TODO items.
 
 ## Kanban Boards
 
-Recently, kanban boards have seen a significant rise in popularity. They work by partitioning tasks using a progression of task lists. Each task is defined by a single card which transitions between lists as it iterates through the life-cycle. An typical example of the list collection for a software development cycle is "backlog" -> "todo" -> "in progress" -> "testing" -> "done". A software feature may begin in the "todo" list, move to "in progress" during development, reach the "testing" list after, transition back to "todo" after testing failures, and so-on until reaching the "done" list. In my elementary understanding, physically moving cards between task lists helps reinforce the notion that something is completing, a difficulty which plagues the tech community.
+Recently, kanban boards have seen a significant rise in popularity. They work by partitioning tasks using a progression of task lists. Each task is defined by a single card which transitions between lists as it iterates through the life-cycle. An typical example of the list collection for a software development cycle is "backlog" -> "todo" -> "in progress" -> "testing" -> "done". A software feature may begin in the "todo" list, move to "in progress" during development, reach the "testing" list after, transition back to "todo" after testing failures, and so-on until reaching the "done" list. In my elementary understanding, physically moving cards between task lists helps reinforce the notion that something is completing, a difficulty which plagues the tech community. An example kanban board is depicted below.
 
-TODO - kanban board graphic
+<p align="center">
+  <img width="100%" src="/posts/20210223-a-script-based-kanban-board-implementation/kanban-board.png">
+</p>
 
 The rise in popularity may be largely attributed in the tech-space by applications in Agile programming. In just the last week I have used [Zenhub](https://www.zenhub.com/), which focuses on the github ecosystem tracking issues and the development cycle and [Trello](https://trello.com/) which is ran by Atlassian (think BitBucket) servicing a similar purpose for their platform. Although these solutions have relatively mature terminal-based clients (e.x. [trello-cli](https://github.com/mheap/trello-cli)) they tend to be too bulky for my simple application. Additionally, online syncing and sharing my TODO list with other users is far beyond the scope of my functionality requirements.
 
