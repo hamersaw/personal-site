@@ -1,5 +1,5 @@
 ---
-title: "A Script-Based Kanban Board Implementation"
+title: "Due: A Kanban Board Task Management Script"
 date: 2021-02-23T19:37:18-06:00
 draft: false
 tags: ["development", "script"]
@@ -24,7 +24,7 @@ There are many proven solutions, probably backed by profound psychologic studies
 Recently, kanban boards have seen a significant rise in popularity. They work by partitioning tasks using a progression of task lists. Each task is defined by a single card which transitions between lists as it iterates through the life-cycle. An typical example of the list collection for a software development cycle is "backlog" -> "todo" -> "in progress" -> "testing" -> "done". A software feature may begin in the "todo" list, move to "in progress" during development, reach the "testing" list after, transition back to "todo" after testing failures, and so-on until reaching the "done" list. In my elementary understanding, physically moving cards between task lists helps reinforce the notion that something is completing, a difficulty which plagues the tech community. An example kanban board is depicted below.
 
 <p align="center">
-  <img width="100%" src="/posts/20210223-a-script-based-kanban-board-implementation/kanban-board.png">
+  <img width="100%" src="/posts/20210223-due-a-kanban-board-task-management-script/kanban-board.png">
 </p>
 
 The rise in popularity may be largely attributed in the tech-space by applications in Agile programming. In just the last week I have used [Zenhub](https://www.zenhub.com/), which focuses on the github ecosystem tracking issues and the development cycle and [Trello](https://trello.com/) which is ran by Atlassian (think BitBucket) servicing a similar purpose for their platform. Although these solutions have relatively mature terminal-based clients (e.x. [trello-cli](https://github.com/mheap/trello-cli)) they tend to be too bulky for my simple application. Additionally, online syncing and sharing my TODO list with other users is far beyond the scope of my functionality requirements.
@@ -71,6 +71,7 @@ We can add tasks in the form of cards by similarity using the 'add' command with
 Each task can have associated metadata by using the 'edit' command, attaching a "note" to the task (denoted by the "note" tag following the task). For example we can use vim to add grocery items to the "grocery shop" card as follows:
 
     hamersaw@nightcrawler:~$ due edit 1.2.1
+	hamersaw@nightcrawler:~$ due list 1
     1 home
         1.1 backlog
             1.1.1 take over the world
