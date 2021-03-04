@@ -25,7 +25,7 @@ copyright = "&copy; Daniel Rammer 2021"
   #bio = "Your short bio"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 

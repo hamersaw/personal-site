@@ -2,7 +2,7 @@
 title: "Reprojecting netCDF Data Using Shapefiles"
 date: 2021-02-11T04:00:45-07:00
 draft: false
-tags: ["development", "spatiotemporal"]
+tags: ["development", "project-sustain", "spatiotemporal"]
 ---
 
 I'm part of an active multi-university research effort tagged [Project Sustain](http://urban-sustain.org). The goal of this work is to support robust analyses over myriad domains to better inform urban planning. Understandably it is a broad goal with a multi-faceted approach. My particular role is in backend development. Specifically, loading data for efficient, distributed queries. Additionally, I'm contributing to interfaces for training models (e.x. regression models to predict future temperature, clustering counties based on precipitation), computing extreme value analyses (e.x. classifying heat-waves is different for each region), and other analytics tasks.

@@ -7,7 +7,7 @@ tags: ["development", "script"]
 
 TL;DR - The due script in my [script repository](https://github.com/hamersaw/scripts) is a shell script kanban board implementation.
 
-TODO list management is an integral component in any workflow. There is absolutely no shortage of tools in this space, ranging from integrated online suite extensions to local text files. My UI, and broadly defined work environment, thrives on minimalist solutions. I tend to favor simplicity over robust functionality. To succinctly explain my methodology "the more things going on, the more than can (and typically does) break". This has driven many of my development choices including transitioning to Debian stable on both my laptop and home server machines rather than running a sexier alternative.
+TODO list management is an integral component in any workflow. There is absolutely no shortage of tools in this space, ranging from integrated online suite extensions to local text files. My UI, and broadly defined work environment, thrives on minimalist solutions. I tend to favor simplicity over robust functionality. To succinctly explain my methodology "the more things going on, the more than can (and typically do) break". This has driven many of my development choices including transitioning to Debian stable on both my laptop and home server machines rather than running a sexier alternative.
 
 In my particular use-case I am looking for a specific set of functionality:
 
