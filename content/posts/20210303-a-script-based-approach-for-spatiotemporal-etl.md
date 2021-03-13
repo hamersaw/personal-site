@@ -1,7 +1,7 @@
 ---
 title: "A Script-Based Approach for Hierarchical ETL"
 date: 2021-03-03T03:52:15-06:00
-draft: true
+draft: false
 tags: ["development", "project-sustain"]
 ---
 
@@ -19,11 +19,7 @@ The initial drive has left the project in some level of disarray. Data storage f
 
 ETL is an acronym for Extract, Transform, and Load. It describes the foundational framework for data warehousing applications. The crux of ETL tools is to provide hierarchical task definitions which, when executed, process a collection of raw data to populate a well-defined, queryable data store. 
 
-TODO - graphic of ETL task hierarchy
-
 The main advantage of defining an ETL process, as opposed to more elementary solutions, is providing reproducibility in the build system. Foremost, the solution enables an end-to-end solution which constructs a data store from raw data. An ancillary component is the ability to integration a specific development pipeline to adopt new datasets. An elementary workflow example may be (1) develop process on a local machine, (2) perform extensive testing on a distributed development cluster, and (3) deploy to a well-controlled production cluster. This proven pipeline mitigates unforeseen issues to front-facing, production level tooling.
-
-TODO - graphic of ETL development pipeline
 
 ## Python-Driven Task Management
 
