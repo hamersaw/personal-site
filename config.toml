@@ -2,6 +2,8 @@ baseURL = "https://blackpine.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "blackpine.io"
+
+# https://github.com/Fastbyte01/KeepIt
 theme = "KeepIt"
 
 paginate = 5
@@ -52,19 +54,21 @@ disqusShortname = "blackpine-io"
     since = 2020
     author = "Daniel Rammer"
     subtitle = "PhD Student at Colorado State University"
-    #home_mode = "" # post or other
+    home_mode = "profile" # post or other
 
-    avatar = "/images/me/avatar.jpeg"
+    avatar = "/avatar.png"
+    #avatar = "/images/me/avatar.jpeg"
     socialShare = true
 
-    description = "blah blah" # site description
-    keywords = "eh" # site keywords
+    #description = "blah blah" # site description
+    #keywords = "eh" # site keywords
 
     #license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.social]
     GitHub = "hamersaw"
     Instagram = "dan.rammer"
+    Email = "hamersaw@protonmail.com"
     Strava = "61166744"
 
 [params.share]

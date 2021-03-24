@@ -22,15 +22,14 @@
 
 html {
   font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
-  line-height:1.57
-}
-
-.header-logo {
-  font-size: 1.25em;
+  line-height:1.57;
 }
 
 .navbar {
   font-size: 1.15em;
+  .header-logo {
+    font-size: 1.25em;
+  }
 }
 
 h2.description {
@@ -40,13 +39,13 @@ h2.description {
 }
 
 body {
-  color:#555;
+  //color:#555; // TOOD - add color to variables
   font-size:1em;
   font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
   line-height:1.57
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight:300;
   font-family:"Open Sans",sans-serif;
 }
@@ -54,3 +53,24 @@ h1,h2,h3,h4,h5,h6 {
 #dynamic-to-top {
   font-family: "Open Sans",sans-serif;
 }
+
+/*.intro {
+  .avatar {
+    img {
+      width: 128;
+      -webkit-transition: all ease 0.0s;
+      -moz-transition: all ease 0.0s;
+      -o-transition: all ease 0.0s;
+      transition: all ease 0.0s;
+      cursor: auto;
+      &:hover {
+        -webkit-transform: translateY(0.0em);
+        -moz-transform: translateY(0.0em);
+        -ms-transform: translateY(0.0em);
+        -o-transform: translateY(0.0em);
+        transform: translateY(0.0em);
+        cursor: auto;
+      }
+    }
+  }
+}*/
