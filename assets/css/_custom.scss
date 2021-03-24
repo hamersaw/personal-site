@@ -33,13 +33,12 @@ html {
 }
 
 h2.description {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: normal;
   padding: 5px;
 }
 
 body {
-  //color:#555; // TOOD - add color to variables
   font-size:1em;
   font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
   line-height:1.57
@@ -54,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans",sans-serif;
 }
 
-/*.intro {
+.intro {
   .avatar {
     img {
       width: 128;
@@ -73,4 +72,4 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-}*/
+}
