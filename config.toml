@@ -1,50 +1,79 @@
-baseURL = "https://blackpine.io/"
-languageCode = "en-us"
+baseURL = "https://blackpine.io"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "blackpine.io"
+theme = "KeepIt"
 
-theme = "hugo_theme_pickles"
-copyright = "&copy; Daniel Rammer 2021"
+paginate = 5
+enableRobotsTXT = true
+#googleAnalytics = ""
+disqusShortname = "blackpine-io"
+
+[sitemap]
+    changefreq = "monthly"
+    filename = "sitemap.xml"
+    priority = 0.5
+
+[blackfriday]
+    hrefTargetBlank = true
+    nofollowLinks = true
+    noreferrerLinks = true
+
+#[Permalinks]
+#    posts = "/:year/:filename/"
+
+[menu]
+    #[[menu.main]]
+        #name = "Blog"
+        #url = "/posts/"
+        #weight = 1
+
+    #[[menu.main]]
+        #name = "Categories"
+        #url = "/categories/"
+        #weight = 3
+
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 1
+
+    [[menu.main]]
+        name = "Resume"
+        url = "/resume.pdf"
+        weight = 2
+
+    [[menu.main]]
+        name = "Publications"
+        url = "/publications"
+        weight = 3
 
 [params]
-  # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "a collection of ramblings and general debauchery"
+    since = 2020
+    author = "Daniel Rammer"
+    subtitle = "PhD Student at Colorado State University"
+    #home_mode = "" # post or other
 
-  paginate = 5
+    avatar = "/images/me/avatar.jpeg"
+    socialShare = true
 
-  instagram = "dan.rammer"
-  github = "hamersaw"
-  strava = "61166744"
+    description = "blah blah" # site description
+    keywords = "eh" # site keywords
 
-  # Disqus shortname
-  disqus = "blackpine-io"
+    #license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  #author = "Your Name"
-  #authorwebsite = "example.com"
-  #avatar = "/path/to/avatar"
-  #contact = "Your contact link (ex. mailto:foo@example.com)"
-  #bio = "Your short bio"
+[params.social]
+    GitHub = "hamersaw"
+    Instagram = "dan.rammer"
+    Strava = "61166744"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+[params.share]
+GitHub = true
+Insagram = true
+Strava = true
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+[author]
+  name = "Daniel Rammer"
 
-[[menu.main]]
-    name = "Resume"
-    url = "/resume.pdf"
-    weight = 3
-
-[[menu.main]]
-    name = "Publications"
-    url = "/publications"
-    weight = 4
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 5
+  [params.publisher]
+    name = "Daniel Rammer"

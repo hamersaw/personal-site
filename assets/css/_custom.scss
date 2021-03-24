@@ -1,0 +1,56 @@
+@font-face{
+  font-family:'OpenSans';
+  font-style:normal;
+  font-weight:300;
+  src:local("OpenSans"),url("/static/fonts/OpenSans-Regular.ttf") format("truetype")
+}
+
+@font-face{
+  font-family:'OpenSans';
+  font-style:normal;
+  font-weight:400;
+  src:local("OpenSans"),url("/static/fonts/OpenSans-Regular.ttf") format("truetype")
+}
+
+@font-face{
+  font-family:'OpenSans';
+  font-style:normal;
+  font-weight:600;
+  src:local("OpenSans"),url("/static/fonts/OpenSans-Regular.ttf") format("truetype")
+}
+
+
+html {
+  font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  line-height:1.57
+}
+
+.header-logo {
+  font-size: 1.25em;
+}
+
+.navbar {
+  font-size: 1.15em;
+}
+
+h2.description {
+  font-size: 1.5em;
+  font-weight: normal;
+  padding: 5px;
+}
+
+body {
+  color:#555;
+  font-size:1em;
+  font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  line-height:1.57
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:300;
+  font-family:"Open Sans",sans-serif;
+}
+
+#dynamic-to-top {
+  font-family: "Open Sans",sans-serif;
+}

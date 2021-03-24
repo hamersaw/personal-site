@@ -7,10 +7,10 @@ disqus: ""
 hideDate: true
 ---
 
-## Journals
+# Journals
 **Daniel Rammer**, Thilina Buddhika, Matthew Malensek, Shrideep Pallickara, and Sangmi Lee Pallickara. [Enabling Fast Exploratory Analyses Over Voluminous Spatiotemporal Data Using Analytical Engines](/publications/anamnesis-tbd.pdf). IEEE Transactions on Big Data. 2019. [5.16 Impact Factor]
 
-## Conferences
+# Conferences
 Paahuni Khandelwal, **Daniel Rammer**, Shrideep Pallickara and Sangmi Pallickara. [Mind the Gap: Generating Imputations for Satellite Data Collections at Myriad Spatiotemporal Scopes](/publications/mind-the-gap-ccgrid.pdf). (To Appear) IEEE International Symposium on Cluster Computing and the Grid (IEEE CCGrid). Online. 2021. [26% Acceptance Rate]
 
 **Daniel Rammer**, Kevin Bruhwiler, Paahuni Khandelwal, Sam Armstrong, Shrideep Pallickara and Sangmi Pallickara. [Small is Beautiful: Distributed Orchestration of Spatial Deep Learning Workloads](/publications/spatial-deep-learning-v4.pdf). Proceedings of the 13th IEEE/ACM Conference on Utility and Cloud Computing. Leicester, UK. 2020. [31% Acceptance Rate]
