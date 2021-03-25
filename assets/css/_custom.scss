@@ -19,7 +19,6 @@
   src:local("OpenSans"),url("/static/fonts/OpenSans-Regular.ttf") format("truetype")
 }
 
-
 html {
   font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
   line-height:1.57;
@@ -32,10 +31,14 @@ html {
   }
 }
 
-h2.description {
-  font-size: 1.7em;
+div.author {
+  font-size: 2.0em;
   font-weight: normal;
-  padding: 5px;
+}
+  
+div.description {
+  font-size: 1.4em;
+  font-weight: normal;
 }
 
 body {
@@ -54,15 +57,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro {
+  transform: translateY(5vh);
   .avatar {
     img {
-      width: 128;
+      width: 128px;
       -webkit-transition: all ease 0.0s;
       -moz-transition: all ease 0.0s;
       -o-transition: all ease 0.0s;
       transition: all ease 0.0s;
       cursor: auto;
       &:hover {
+        position: relative;
         -webkit-transform: translateY(0.0em);
         -moz-transform: translateY(0.0em);
         -ms-transform: translateY(0.0em);
@@ -72,4 +77,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
+}
+
+.post-warp {
+  text-align: left;
 }
