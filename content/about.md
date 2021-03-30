@@ -7,10 +7,10 @@ disqus: ""
 hideDate: true
 ---
 
-PSA: I will soon be graduating and strongly vested in the job market. If my work interests you please feel free to contact me. I would enjoy discussing future directions and how they may align with your needs.
+I'm a Ph.D. student at Colorado State University. My work on distributed systems, specifically harnessing spatiotemporal data characteristics to improve storage and analytics at scale provides significant reductions in resource utilization -- measureable in orders of magnitude. Additionally, I have experience in network security, focusing primarily on large scale Internet measurements by developing monitoring systems which scale globally.
 
-My name is Dan Rammer. I'm a Ph.D. student in Computer Science at Colorado State University focusing on distributed storage and analytics of spatiotemporal data at scale. I have also worked with large-scale Internet measurements to detect Internet outages and routing anomalies.
+I've always been interested in building things -- working with my hands from an early age. I began my career in a small, fast-paced data warehouseing company, enabling me to apply those skills to software engineering. This experience introduced me to large-scale data management and led me to consider graduate school. I have been developing my technical skills by working on the forefront of these efforts ever since.
 
-Athletics have always been important to me. I can attribute much of my work ethic to the unrelenting pursuit of accolades in Football and Track & Field during my formative years. Through my success, I had the opportunity to compete collegiately in both Cross Country and Track & Field (Go Titans!). Though I grievously admit my best performances are behind me, I find exercise and general fitness to offer a satisfying change of pace.
+As part of my current role, I'm included on a multiple University effort to build user-facing tooling for end-to-end understanding of urban sustainability data. Primarly involved in the backend, I have significantly reduced spatial query times by load-balancing distributed storage and analytics. Additionally, this experience has familiarized me with industry standards for software engineering and team orchestration. And I'm really enjoying it.
 
-Growing up in Wisconsin, I had the pleasure of being shaped by weekends camping, hunting, and fishing in the Northwoods. As such, I've learned to appreciate the solitude provided by nature. Since beginning graduate school I've taken up backpacking, spending my free time pursuing remote areas in the Colorado Rockies.
+Moving forward, I'm excited about developing and deploying novel solutions to combat inefficiencies at scale.
