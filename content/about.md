@@ -11,6 +11,6 @@ I'm a Ph.D. student at Colorado State University. My work on distributed systems
 
 I've always been interested in building things -- working with my hands from an early age. I began my career in a small, fast-paced data warehouseing company, enabling me to apply those skills to software engineering. This experience introduced me to large-scale data management and led me to consider graduate school. I have been developing my technical skills by working on the forefront of these efforts ever since.
 
-As part of my current role, I'm included on a multiple University effort to build user-facing tooling for end-to-end understanding of urban sustainability data. Primarly involved in the backend, I have significantly reduced spatial query times by load-balancing distributed storage and analytics. Additionally, this experience has familiarized me with industry standards for software engineering and team orchestration. And I'm really enjoying it.
+As part of my current role, I'm included on a multiple University effort to build user-facing tooling for an end-to-end understanding of urban sustainability data. I have significantly reduced spatial query times by load-balancing distributed storage and analytics. Additionally, through this experience I've gained familiarity with industry standards for software engineering and team orchestration and I'm really enjoying it.
 
 Moving forward, I'm excited about developing and deploying novel solutions to combat inefficiencies at scale.
