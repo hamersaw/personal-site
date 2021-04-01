@@ -40,9 +40,14 @@ disqusShortname = "blackpine-io"
     #    url = "/about"
     #    weight = 1
 
+    #[[menu.main]]
+    #    name = "Resume"
+    #    url = "/resume.pdf"
+    #    weight = 1
+
     [[menu.main]]
-        name = "Resume"
-        url = "/resume.pdf"
+        name = "Curriculum Vitae"
+        url = "/curriculum-vitae.pdf"
         weight = 1
 
     [[menu.main]]
