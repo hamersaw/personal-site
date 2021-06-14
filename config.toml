@@ -78,7 +78,7 @@ disqusShortname = "blackpine-io"
 [params.social]
     Email = "hamersaw@protonmail.com"
     GitHub = "hamersaw"
-    Instagram = "dan.rammer"
+    #Instagram = "dan.rammer"
     Strava = "61166744"
 
 [params.share]
