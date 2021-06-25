@@ -11,29 +11,21 @@ enableRobotsTXT = true
 #googleAnalytics = ""
 disqusShortname = "blackpine-io"
 
-[sitemap]
-    changefreq = "monthly"
-    filename = "sitemap.xml"
-    priority = 0.5
+#[sitemap]
+#    changefreq = "monthly"
+#    filename = "sitemap.xml"
+#    priority = 0.5
 
 [blackfriday]
     hrefTargetBlank = true
     nofollowLinks = true
     noreferrerLinks = true
 
-#[Permalinks]
-#    posts = "/:year/:filename/"
-
 [menu]
     #[[menu.main]]
-        #name = "Blog"
-        #url = "/posts/"
-        #weight = 1
-
-    #[[menu.main]]
-        #name = "Categories"
-        #url = "/categories/"
-        #weight = 3
+    #    name = "Categories"
+    #    url = "/categories/"
+    #    weight = 2
 
     #[[menu.main]]
     #    name = "About"
@@ -43,28 +35,34 @@ disqusShortname = "blackpine-io"
     #[[menu.main]]
     #    name = "Resume"
     #    url = "/resume.pdf"
-    #    weight = 1
+    #    weight = 2
 
     [[menu.main]]
         name = "Curriculum Vitae"
         url = "/curriculum-vitae.pdf"
-        weight = 1
+        weight = 3
+
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 4
 
     [[menu.main]]
         name = "Projects"
         url = "/projects"
-        weight = 2
+        weight = 5
 
     [[menu.main]]
         name = "Publications"
         url = "/publications"
-        weight = 3
+        weight = 6
 
 [params]
     since = 2020
     author = "Daniel Rammer"
     subtitle = "PhD Student at Colorado State University"
-    home_mode = "profile" # post or other
+    #home_mode = "profile" # post or other
+    home_mode = "post" # post or other
 
     avatar = "/avatar.png"
     #avatar = "/images/me/avatar.jpeg"
@@ -73,12 +71,12 @@ disqusShortname = "blackpine-io"
     #description = "blah blah" # site description
     #keywords = "eh" # site keywords
 
-    #license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    #license = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.social]
     Email = "hamersaw@protonmail.com"
     GitHub = "hamersaw"
-    #Instagram = "dan.rammer"
+    Instagram = "dan.rammer"
     Strava = "61166744"
 
 [params.share]

@@ -31,6 +31,24 @@ html {
   }
 }
 
+.navbar .menu .active{
+  font-weight: 100;
+  color: $light-font-color;
+
+  .dark-theme &{
+    color: $dark-font-color;
+  }
+}
+
+.navbar-header a:hover, .navbar .menu a:hover {
+  background-color: transparent;
+  color: $light-global-link-hover-color;
+
+  .dark-theme &{
+    color: $dark-font-secondary-color;
+  }
+}
+
 div.author {
   font-size: 2.0em;
   font-weight: normal;
@@ -74,6 +92,19 @@ h1, h2, h3, h4, h5, h6 {
         -o-transform: translateY(0.0em);
         transform: translateY(0.0em);
         cursor: auto;
+      }
+    }
+  }
+}
+
+.post-warp {
+  .intro {
+    transform: translateY(0);
+    margin: 2em 0 5em 0;
+
+    .avatar {
+      img {
+        width: 128px;
       }
     }
   }
