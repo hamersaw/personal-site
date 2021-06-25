@@ -50,18 +50,6 @@
                     <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
                         itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
                 </span>
-                in
-                {{ with .Params.categories -}}
-                <i class="iconfont icon-folder"></i>
-                <span class="post-category">
-                    {{ range . }}
-                    {{- $name := . -}}
-                    {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
-                    <a href="{{ .Permalink }}"> {{ $name }} </a>
-                    {{ end -}}
-                    {{ end }}
-                </span>
-                {{- end }}
             </div>
             {{ with .Params.tags }}
             <div class="post-tags">

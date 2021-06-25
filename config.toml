@@ -22,10 +22,15 @@ disqusShortname = "blackpine-io"
     noreferrerLinks = true
 
 [menu]
-    #[[menu.main]]
-    #    name = "Categories"
-    #    url = "/categories/"
-    #    weight = 2
+    [[menu.posts]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 1
+
+    [[menu.posts]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
 
     #[[menu.main]]
     #    name = "About"
@@ -41,11 +46,6 @@ disqusShortname = "blackpine-io"
         name = "Curriculum Vitae"
         url = "/curriculum-vitae.pdf"
         weight = 3
-
-    [[menu.main]]
-        name = "Posts"
-        url = "/posts/"
-        weight = 4
 
     [[menu.main]]
         name = "Projects"
@@ -76,14 +76,15 @@ disqusShortname = "blackpine-io"
 [params.social]
     Email = "hamersaw@protonmail.com"
     GitHub = "hamersaw"
+    Googlescholar = "zq3ow-8AAAAJ"
     Instagram = "dan.rammer"
     Strava = "61166744"
 
 [params.share]
-    Email = true
-    GitHub = true
-    Insagram = true
-    Strava = true
+    #Email = true
+    #GitHub = true
+    #Insagram = true
+    #Strava = true
 
 [author]
   name = "Daniel Rammer"
