@@ -1,0 +1,4 @@
+  {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.Minify}}
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
