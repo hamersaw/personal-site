@@ -78,8 +78,8 @@ disqusShortname = "blackpine-io"
     GitHub = "hamersaw"
     Leetcode = "hamersaw"
     Googlescholar = "zq3ow-8AAAAJ"
-    Instagram = "dan.rammer"
     Strava = "61166744"
+    #Instagram = "dan.rammer"
 
 [params.share]
     #Email = true
