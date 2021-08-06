@@ -22,3 +22,6 @@ Kevin Bruhwiler, Paahuni Khandelwal, **Daniel Rammer**, Samuel Armstrong, Sangmi
 **Daniel Rammer**, Sangmi Lee Pallickara, and Shrideep Pallickara. [ATLAS: A Distributed File System for Spatiotemporal Data](/publications/Atlas-v8-Final-UCC.pdf). Proceedings of the 12th IEEE/ACM Conference on Utility and Cloud Computing. Auckland, NZ. 2019. [29.2% Acceptance Rate]
 
 **Daniel Rammer**, Walid Budgaga, Thilina Buddhika, Shrideep Pallickara, and Sangmi Lee Pallickara. [Alleviating I/O Inefficiencies to Enable Effective Model Training Over Voluminous, High-Dimensional Datasets](/publications/Fennel-BigData.pdf). Proceedings of the IEEE International Conference on Big Data (IEEE BigData). Seattle, USA. 2018. [18.9% Acceptance Rate]
+
+# Dissertation
+**Daniel Rammer**. [Harnessing Spatiotemporal Data Characteristics to Facilitate Large-Scale Analytics Over Voluminous, High-Dimensional Observational Datasets](/publications/rammer-dissertation-v2.pdf). PhD Dissertation, Colorado State University. September 2021. Advisors: Shrideep Pallickara and Sangmi Lee Pallickara.
