@@ -37,15 +37,15 @@ disqusShortname = "blackpine-io"
     #    url = "/about"
     #    weight = 1
 
-    #[[menu.main]]
-    #    name = "Resume"
-    #    url = "/resume.pdf"
-    #    weight = 2
-
     [[menu.main]]
-        name = "Curriculum Vitae"
-        url = "/curriculum-vitae.pdf"
-        weight = 3
+        name = "Resume"
+        url = "/resume.pdf"
+        weight = 2
+
+    #[[menu.main]]
+    #    name = "Curriculum Vitae"
+    #    url = "/curriculum-vitae.pdf"
+    #    weight = 3
 
     [[menu.main]]
         name = "Projects"
@@ -60,7 +60,7 @@ disqusShortname = "blackpine-io"
 [params]
     since = 2020
     author = "Daniel Rammer"
-    subtitle = "PhD Student at Colorado State University"
+    subtitle = "Software Engineer at Union AI"
     #home_mode = "profile" # post or other
     home_mode = "post" # post or other
 
