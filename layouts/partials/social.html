@@ -4,23 +4,23 @@
 {{ with .Site.Params.Social.Github }}
 <a href="https://github.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-github"></i></a>
 {{ end }}
-{{ with .Site.Params.Social.Leetcode}}
-<a href="https://www.leetcode.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-leetcode"></i></a>
+{{ with .Site.Params.Social.LinkedIn }}
+<a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-linkedin"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Googlescholar}}
 <a href="https://scholar.google.com/citations?{{ . }}" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-googles-cholar"></i></a>
+{{ end }}
+{{ with .Site.Params.Social.Leetcode}}
+<a href="https://www.leetcode.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-leetcode"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Strava}}
 <a href="https://www.strava.com/athletes/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-strava"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Instagram }}
-<a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-instagram"></i></a> 
+<a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont cib-instagram"></i></a>
 {{ end }}
 
 
-{{ with .Site.Params.Social.LinkedIn }}
-<a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-linkedin"></i></a>
-{{ end }}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-twitter"></i></a>
 {{ end }}
