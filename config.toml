@@ -76,10 +76,10 @@ disqusShortname = "blackpine-io"
 [params.social]
     Email = "hamersaw@protonmail.com"
     GitHub = "hamersaw"
-    Leetcode = "hamersaw"
+    Linkedin = "daniel-rammer-b1ab4249/"
     Googlescholar = "zq3ow-8AAAAJ"
+    Leetcode = "hamersaw"
     Strava = "61166744"
-    Linkedin = "daniel"
     #Instagram = "dan.rammer"
 
 [params.share]
