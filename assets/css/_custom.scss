@@ -75,6 +75,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-warp {
+  text-align: left;
+
   .intro {
     transform: translateY(0);
     .avatar {
@@ -104,13 +106,11 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-}
 
-.post-warp {
-  text-align: left;
-}
+  .post {
+    margin-bottom: 1.5em;
+  }
 
-.post-warp {
   .post-content {
     a:hover {
       color: $light-post-link-hover-color;
