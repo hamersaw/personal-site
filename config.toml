@@ -63,6 +63,7 @@ disqusShortname = "blackpine-io"
     subtitle = "Software Engineer at Union AI"
     #home_mode = "profile" # post or other
     home_mode = "post" # post or other
+    dateFormatToUse = "January 2 2006"
 
     avatar = "/avatar.png"
     #avatar = "/images/me/avatar.jpeg"
