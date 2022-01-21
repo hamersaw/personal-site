@@ -55,7 +55,7 @@ div.author {
 }
   
 div.description {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: normal;
 }
 
@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-warp {
   text-align: left;
+
+  p {
+    margin: 0.8em 0;
+  }
 
   .intro {
     transform: translateY(0);
@@ -132,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-links {
-  padding-top: 0.5em;
+  padding-top: 0.85em;
   .iconfont {
     font-size: 1.8em;
   }

@@ -28,7 +28,7 @@
           {{ partial "social.html" . }}
         </div>
     </div>
-    {{ range (.Paginate (where .Site.Pages "Params.type" "post")).Pages  }}
+    {{ range (.Paginate (where .Site.Pages "Params.type" "post") .Site.Params.homePaginate).Pages  }}
     <article class="post" itemscope itemscope="" itemtype="http://schema.org/Article">
 
         <header class="post-header">

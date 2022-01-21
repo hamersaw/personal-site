@@ -6,7 +6,7 @@ title = "blackpine.io"
 # https://github.com/Fastbyte01/KeepIt
 theme = "KeepIt"
 
-paginate = 5
+paginate = 20
 enableRobotsTXT = true
 #googleAnalytics = ""
 disqusShortname = "blackpine-io"
@@ -63,6 +63,7 @@ disqusShortname = "blackpine-io"
     subtitle = "Software Engineer at Union AI"
     #home_mode = "profile" # post or other
     home_mode = "post" # post or other
+    homePaginate = 5
     dateFormatToUse = "January 2 2006"
 
     avatar = "/avatar.png"
