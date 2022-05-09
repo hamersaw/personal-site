@@ -1,0 +1,6 @@
+.post-entry {
+    background: unset;
+    border-radius: unset;
+    border: unset;
+    border-bottom: 2px solid var(--border);
+}
