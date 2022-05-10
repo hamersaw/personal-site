@@ -76,12 +76,16 @@ params:
   #  Content: Software Engineer @Union.ai
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/hamersaw"
+    - name: email
+      url: "daniel.rammer@protonmail.com"
+    - name: linkedin
+      url: "https://linkedin.com/danrammer"
+    - name: slack
+      url: "https://linkedin.com/danrammer"
+    - name: googlescholar
+      url: "https://linkedin.com/danrammer"
 
   #analytics:
   #  google:
@@ -117,14 +121,23 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume.pdf
+      weight: 20
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 30
+  secondary:
     - identifier: archive
       name: Archive
       url: /archive/
-      weight: 20
+      weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 20
     #- identifier: example
     #  name: example.org
     #  url: https://example.org

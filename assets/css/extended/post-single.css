@@ -22,3 +22,7 @@
 .post-content h3 {
     font-size: 18px;
 }
+
+.post-content code {
+    font-size: 0.9em;
+}

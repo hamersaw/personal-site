@@ -1,0 +1,26 @@
+.logo,
+#secondary-menu {
+    display: flex;
+    margin: auto var(--gap);
+}
+
+#secondary-menu {
+    list-style: none;
+    word-break: keep-all;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#secondary-menu li + li {
+    margin-inline-start: var(--gap);
+}
+
+#secondary-menu a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#secondary-menu .active {
+    font-weight: 500;
+    border-bottom: 2px solid currentColor;
+}
