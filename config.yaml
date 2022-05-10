@@ -76,16 +76,16 @@ params:
   #  Content: Software Engineer @Union.ai
 
   socialIcons:
+    - name: email
+      url: "mailto: daniel.rammer@protonmail.com"
     - name: github
       url: "https://github.com/hamersaw"
-    - name: email
-      url: "daniel.rammer@protonmail.com"
     - name: linkedin
-      url: "https://linkedin.com/danrammer"
-    - name: slack
-      url: "https://linkedin.com/danrammer"
+      url: "https://linkedin.com/in/daniel-rammer-b1ab4249/"
+    #- name: slack
+      #url: "https:/slack/danrammer"
     - name: googlescholar
-      url: "https://linkedin.com/danrammer"
+      url: "https://scholar.google.com/citations?user=zq3ow-8AAAAJ&hl"
 
   #analytics:
   #  google:

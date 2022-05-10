@@ -19,3 +19,28 @@
 .entry-footer {
     font-size: 14px;
 }
+
+.home-info p {
+    -webkit-line-clamp: unset;
+    margin-bottom: unset;
+}
+
+.home-info h1 {
+    margin-top: 32px;
+    margin-bottom: unset;
+}
+
+.home-info .entry-content {
+    margin: 4px 0;
+}
+
+.home-info .social-icons {
+    padding: unset;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+.entry-footer {
+    color: var(--secondary);
+    font-size: 13px;
+}
