@@ -1,4 +1,5 @@
 :root {
+    --main-width: 820px;
     --theme: rgb(245, 245, 245);
     --code-bg: rgb(255, 255, 255);
     --border: rgb(228, 228, 228);

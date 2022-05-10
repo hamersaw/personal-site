@@ -1,7 +1,7 @@
 baseURL: "https://examplesite.com/"
 title: blackpine.io
 paginate: 5
-theme: PaperMod
+theme: PaperMod # https://github.com/adityatelange/hugo-PaperMod
 copyright: "@2020-2022 Daniel Rammer"
 
 enableRobotsTXT: true
@@ -32,7 +32,7 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: true
   disableScrollToTop: true
   comments: false
@@ -120,11 +120,11 @@ menu:
     - identifier: archive
       name: Archive
       url: /archive/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     #- identifier: example
     #  name: example.org
     #  url: https://example.org
