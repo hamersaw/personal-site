@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://blackpine.io/"
 title: blackpine.io
 paginate: 5
 theme: PaperMod # https://github.com/adityatelange/hugo-PaperMod
